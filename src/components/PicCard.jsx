@@ -6,6 +6,7 @@ export default function PicCard(props) {
             <span style={{ border: "1px solid red", padding: "10px", display: "inline-block" }}>
                 <img src={props.showimg} style={{ width: props.wi }} alt="" />
             </span>
+            {/* style={{ width: 100px }} */}
         </>
     )
 }
